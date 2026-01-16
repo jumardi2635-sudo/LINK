@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Verifikasi Akun</title>
+
+    <!-- Font & Icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.97);
+            padding: 35px 25px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .icon-box {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            font-size: 36px;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3); }
+            50% { box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5); }
+            100% { box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3); }
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        h2 span {
+            color: #667eea;
+        }
+
+        p {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        
+        .phone-display {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+            padding: 12px 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            text-align: center;
+            font-weight: 600;
+            color: #2c3e50;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .phone-display i {
+            color: #667eea;
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #5d6d7e;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        .input-wrapper {
+            position: relative;
+        }
+        
+        .input-wrapper i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #667eea;
+            font-size: 18px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 18px 18px 18px 45px;
+            border: 2px solid #dcdde1;
+            border-radius: 12px;
+            font-size: 18px;
+            text-align: center;
+            letter-spacing: 8px;
+            box-sizing: border-box;
+            outline: none;
+            font-weight: 600;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            background: #fdfdfd;
+        }
+        
+        .form-group input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            background: white;
+        }
+        
+        .form-group input::placeholder {
+            letter-spacing: normal;
+            color: #bdc3c7;
+        }
+
+        .btn-verify {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 18px;
+            border-radius: 12px;
+            font-size: 17px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-verify:hover:not(:disabled) {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.5);
+        }
+        
+        .btn-verify:active:not(:disabled) {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-verify:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+        
+        .btn-verify::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: 0.5s;
+        }
+        
+        .btn-verify:hover:not(:disabled)::after {
+            left: 100%;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            animation: slideIn 0.5s ease;
+        }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .alert-success {
+            background: rgba(102, 126, 234, 0.1);
+            color: #2c3e50;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        
+        .alert-error {
+            background: rgba(231, 76, 60, 0.1);
+            color: #721c24;
+            border: 1px solid rgba(231, 76, 60, 0.3);
+        }
+        
+        .alert-info {
+            background: rgba(52, 152, 219, 0.1);
+            color: #0c5460;
+            border: 1px solid rgba(52, 152, 219, 0.3);
+        }
+        
+        .alert-warning {
+            background: rgba(255, 193, 7, 0.1);
+            color: #856404;
+            border: 1px solid rgba(255, 193, 7, 0.3);
+        }
+        
+        .note {
+            font-size: 12px;
+            color: #7f8c8d;
+            text-align: center;
+            margin-top: 20px;
+            line-height: 1.4;
+        }
+        
+        .back-link {
+            text-align: center;
+            margin-top: 25px;
+        }
+        
+        .back-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: color 0.3s;
+        }
+        
+        .back-link a:hover {
+            color: #764ba2;
+        }
+        
+        .otp-timer {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        /* OTP Input Styling */
+        .otp-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .otp-input {
+            width: 50px;
+            height: 60px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            outline: none;
+            transition: all 0.3s;
+        }
+        
+        .otp-input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+        }
+        
+        .otp-input.filled {
+            border-color: #667eea;
+            background-color: rgba(102, 126, 234, 0.1);
+        }
+        
+        .resend-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .resend-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .resend-link a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 480px) {
+            .card {
+                padding: 25px 20px;
+            }
+            
+            .icon-box {
+                width: 70px;
+                height: 70px;
+                font-size: 32px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            .form-group input {
+                padding: 16px 16px 16px 45px;
+                font-size: 16px;
+                letter-spacing: 6px;
+            }
+            
+            .btn-verify {
+                padding: 16px;
+                font-size: 16px;
+            }
+            
+            .otp-input {
+                width: 45px;
+                height: 55px;
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="card">
+        <div class="icon-box">
+            <i class="fa-solid fa-shield-check"></i>
+        </div>
+
+        <h2>Verifikasi <span>Kode OTP</span></h2>
+        <p>Kode verifikasi telah dikirim ke akun Telegram Anda.</p>
+        
+        {% if session.get('phone') %}
+        <div class="phone-display">
+            <i class="fas fa-mobile-alt"></i>
+            <span>{{ session.phone }}</span>
+        </div>
+        {% endif %}
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                {% if '❌' in message %}
+                    <div class="alert alert-error">
+                        <i class="fas fa-exclamation-circle"></i> {{ message }}
+                    </div>
+                {% elif '✅' in message %}
+                    <div class="alert alert-success">
+                        <i class="fas fa-check-circle"></i> {{ message }}
+                    </div>
+                {% elif '⏳' in message %}
+                    <div class="alert alert-warning">
+                        <i class="fas fa-clock"></i> {{ message }}
+                    </div>
+                {% else %}
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i> {{ message }}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <form action="{{ url_for('verify') }}" method="POST" id="verifyForm">
+            <div class="form-group">
+                <label><i class="fas fa-key"></i> KODE OTP (5 DIGIT)</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-lock"></i>
+                    <input
+                        type="tel"
+                        name="otp"
+                        maxlength="5"
+                        inputmode="numeric"
+                        pattern="[0-9]{5}"
+                        placeholder="12345"
+                        required
+                        autofocus
+                        autocomplete="one-time-code">
+                </div>
+            </div>
+
+            {% if password_required %}
+            <div class="form-group">
+                <label><i class="fas fa-lock"></i> PASSWORD 2-STEP VERIFICATION</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-shield-alt"></i>
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Masukkan password Telegram Anda"
+                        style="letter-spacing: normal; text-align: left;"
+                        required
+                        autocomplete="current-password">
+                </div>
+                <p class="note">Jika akun Anda memiliki 2-Step Verification, masukkan password Anda.</p>
+            </div>
+            {% endif %}
+
+            <button type="submit" class="btn-verify" id="btnVerify">
+                <i class="fas fa-check-circle"></i> Konfirmasi Kode
+            </button>
+        </form>
+        
+        <div class="resend-link">
+            <a href="#" id="resendOtp">
+                <i class="fas fa-redo"></i> Kirim ulang kode OTP
+            </a>
+        </div>
+        
+        <div class="back-link">
+            <a href="{{ url_for('login') }}">
+                <i class="fas fa-arrow-left"></i> Kembali ke halaman login
+            </a>
+        </div>
+        
+        <p class="note">
+            <i class="fas fa-lightbulb"></i> Kode OTP biasanya diterima dalam 1-2 menit. 
+            Periksa folder "Pesan" atau "SMS" di aplikasi Telegram Anda.
+        </p>
+    </div>
+</div>
+
+<script>
+const form = document.getElementById('verifyForm');
+const btn = document.getElementById('btnVerify');
+const otpInput = document.querySelector('input[name="otp"]');
+const resendLink = document.getElementById('resendOtp');
+let countdown = 60;
+let timer = null;
+
+// Auto move focus and format OTP
+otpInput.addEventListener('input', function(e) {
+    // Only allow numbers
+    this.value = this.value.replace(/\D/g, '');
+    
+    // Auto submit after 5 digits
+    if (this.value.length === 5) {
+        // Optionally auto-submit
+        // form.submit();
+    }
+});
+
+// Handle form submission
+form.addEventListener('submit', (e) => {
+    // Validate OTP length
+    if (otpInput.value.length !== 5) {
+        e.preventDefault();
+        showNotification('Masukkan 5 digit kode OTP', 'error');
+        otpInput.focus();
+        return;
+    }
+    
+    // Show loading state
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Memverifikasi...';
+    
+    // Prevent double submission
+    form.submitted = true;
+});
+
+// Handle resend OTP
+resendLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    
+    if (resendLink.classList.contains('disabled')) {
+        return;
+    }
+    
+    // Disable resend link and start countdown
+    resendLink.classList.add('disabled');
+    resendLink.innerHTML = `<i class="fas fa-clock"></i> Kirim ulang (${countdown}s)`;
+    
+    // Start countdown
+    timer = setInterval(() => {
+        countdown--;
+        resendLink.innerHTML = `<i class="fas fa-clock"></i> Kirim ulang (${countdown}s)`;
+        
+        if (countdown <= 0) {
+            clearInterval(timer);
+            resendLink.classList.remove('disabled');
+            resendLink.innerHTML = '<i class="fas fa-redo"></i> Kirim ulang kode OTP';
+            countdown = 60;
+        }
+    }, 1000);
+    
+    // Show success message
+    showNotification('Kode OTP baru telah dikirim', 'success');
+});
+
+// Auto-focus OTP input
+document.addEventListener('DOMContentLoaded', function() {
+    otpInput.focus();
+    
+    // Select all text in OTP field
+    otpInput.select();
+    
+    // Create countdown timer element
+    const timerElement = document.createElement('div');
+    timerElement.className = 'otp-timer';
+    timerElement.innerHTML = '<i class="fas fa-clock"></i> Kode berlaku selama 10 menit';
+    form.parentNode.insertBefore(timerElement, form.nextSibling);
+});
+
+// Handle paste event for OTP
+otpInput.addEventListener('paste', function(e) {
+    e.preventDefault();
+    const pastedText = (e.clipboardData || window.clipboardData).getData('text');
+    const numbers = pastedText.replace(/\D/g, '').substring(0, 5);
+    this.value = numbers;
+    
+    // Auto submit if 5 digits
+    if (numbers.length === 5) {
+        setTimeout(() => form.submit(), 100);
+    }
+});
+
+// Show notification
+function showNotification(message, type = 'info') {
+    const alertDiv = document.createElement('div');
+    alertDiv.className = `alert alert-${type}`;
+    alertDiv.innerHTML = `
+        <i class="fas fa-${type === 'success' ? 'check-circle' : type === 'error' ? 'exclamation-circle' : 'info-circle'}"></i>
+        ${message}
+    `;
+    
+    const card = document.querySelector('.card');
+    const existingAlerts = document.querySelectorAll('.alert');
+    
+    // Remove existing alerts after a short delay
+    existingAlerts.forEach(alert => {
+        setTimeout(() => {
+            alert.remove();
+        }, 300);
+    });
+    
+    // Insert new alert
+    setTimeout(() => {
+        card.insertBefore(alertDiv, card.querySelector('.phone-display') || card.querySelector('h2'));
+        
+        // Remove after 5 seconds
+        setTimeout(() => {
+            if (alertDiv.parentElement) {
+                alertDiv.remove();
+            }
+        }, 5000);
+    }, 300);
+}
+</script>
+
+</body>
+</html>
