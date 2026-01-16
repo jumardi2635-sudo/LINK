@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Gratis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 450px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .form-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .form-header h1 {
+            color: white;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .form-header p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            color: white;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 16px 20px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+        
+        .form-group input::placeholder,
+        .form-group select option {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #764ba2;
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
+        }
+        
+        .phone-input-wrapper {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .country-code {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0 15px;
+            background: rgba(255, 255, 255, 0.15);
+            height: 100%;
+            min-height: 52px;
+        }
+        
+        .country-code img {
+            width: 24px;
+            border-radius: 3px;
+        }
+        
+        .country-code span {
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .phone-input-wrapper input {
+            flex: 1;
+            border: none;
+            background: transparent;
+            padding: 16px 15px;
+            height: auto;
+        }
+        
+        .phone-input-wrapper input:focus {
+            border: none;
+            box-shadow: none;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            accent-color: #764ba2;
+        }
+        
+        .checkbox-group label {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        .checkbox-group a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .checkbox-group a:hover {
+            text-decoration: underline;
+        }
+        
+        .btn-registrasi {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 18px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+            letter-spacing: 0.5px;
+            margin-bottom: 25px;
+        }
+        
+        .btn-registrasi:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+        }
+        
+        .btn-registrasi:active {
+            transform: translateY(0);
+        }
+        
+        /* Ticker Section */
+        .ticker-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 25px 0;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            height: 250px;
+        }
+        
+        .ticker-header {
+            background: rgba(102, 126, 234, 0.3);
+            color: white;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+        
+        .ticker-window {
+            height: 100%;
+            overflow: hidden;
+            padding-top: 50px;
+            position: relative;
+        }
+        
+        .ticker-scroll {
+            position: absolute;
+            width: 100%;
+            animation: scrollUp 30s linear infinite;
+        }
+        
+        .ticker-scroll:hover {
+            animation-play-state: paused;
+        }
+        
+        .ticker-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 12px 15px;
+            margin: 0 15px 10px 15px;
+            border-left: 3px solid #667eea;
+            transition: all 0.3s ease;
+        }
+        
+        .ticker-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateX(5px);
+        }
+        
+        .ticker-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .ticker-name {
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        
+        .ticker-status {
+            color: #764ba2;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .footer p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .footer p:last-child {
+            margin-bottom: 0;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .login-link {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+        }
+        
+        .login-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .spinner {
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @keyframes scrollUp {
+            0% { 
+                transform: translateY(0);
+            }
+            100% { 
+                transform: translateY(-100%);
+            }
+        }
+        
+        .flash-messages {
+            margin-bottom: 20px;
+        }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: slideIn 0.5s ease;
+        }
+        
+        .alert-success {
+            background: rgba(102, 126, 234, 0.2);
+            color: white;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        
+        .alert-error {
+            background: rgba(231, 76, 60, 0.2);
+            color: white;
+            border: 1px solid rgba(231, 76, 60, 0.3);
+        }
+        
+        .alert-info {
+            background: rgba(52, 152, 219, 0.2);
+            color: white;
+            border: 1px solid rgba(52, 152, 219, 0.3);
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Scrollbar Styling */
+        .ticker-window::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .ticker-window::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        
+        .ticker-window::-webkit-scrollbar-thumb {
+            background: rgba(102, 126, 234, 0.5);
+            border-radius: 10px;
+        }
+        
+        .ticker-window::-webkit-scrollbar-thumb:hover {
+            background: rgba(102, 126, 234, 0.7);
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .form-header h1 {
+                font-size: 28px;
+            }
+            
+            .ticker-header {
+                font-size: 15px;
+                padding: 12px;
+            }
+            
+            .ticker-container {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <h1>REGISTER</h1>
+            <p>Bergabunglah dengan komunitas kami</p>
+        </div>
+        
+        <div class="flash-messages">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                        {% if '❌' in message %}
+                            <div class="alert alert-error">
+                                <i class="fas fa-exclamation-circle"></i> {{ message }}
+                            </div>
+                        {% elif '✅' in message %}
+                            <div class="alert alert-success">
+                                <i class="fas fa-check-circle"></i> {{ message }}
+                            </div>
+                        {% elif '⏳' in message %}
+                            <div class="alert alert-info">
+                                <i class="fas fa-clock"></i> {{ message }}
+                            </div>
+                        {% else %}
+                            <div class="alert alert-info">
+                                <i class="fas fa-info-circle"></i> {{ message }}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+        
+        <form action="{{ url_for('login') }}" method="POST" id="loginForm" onsubmit="showLoading()">
+            <div class="form-group">
+                <label><i class="fas fa-user"></i> Nama Lengkap</label>
+                <input type="text" name="name" placeholder="Masukkan nama lengkap" required>
+            </div>
+            
+            <div class="form-group">
+                <label><i class="fas fa-phone"></i> Nomor Telegram</label>
+                <div class="phone-input-wrapper">
+                    <div class="country-code">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg" alt="ID">
+                        <span>+62</span>
+                    </div>
+                    <input type="tel" 
+                           name="phone" 
+                           placeholder="8123456789" 
+                           pattern="[0-9]{9,13}" 
+                           title="Masukkan 9-13 digit nomor telepon (tanpa 0 di depan)" 
+                           required
+                           inputmode="numeric">
+                </div>
+                <small style="font-size: 12px; color: rgba(255, 255, 255, 0.6); display: block; margin-top: 5px;">
+                    Contoh: 8123456789 (tanpa 0 di depan)
+                </small>
+            </div>
+            
+            <div class="form-group">
+                <label><i class="fas fa-lock"></i> Password</label>
+                <input type="password" name="password" placeholder="Masukkan password" required>
+            </div>
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Saya telah membaca dan menyetujui <a href="#">Syarat & Ketentuan</a></label>
+            </div>
+            
+            <div class="loading-spinner" id="loadingSpinner">
+                <div class="spinner"></div>
+                <p style="color: white; margin-top: 10px; font-size: 14px;">Mengirim kode OTP...</p>
+            </div>
+            
+            <button type="submit" class="btn-registrasi" id="submitBtn">
+                <i class="fas fa-user-plus"></i> BUAT AKUN
+            </button>
+        </form>
+        
+        <!-- Section: BERGABUNG HARI INI dengan animasi bergerak -->
+        <div class="ticker-container">
+            <div class="ticker-header">
+                <i class="fas fa-users"></i> BERGABUNG HARI INI
+            </div>
+            <div class="ticker-window">
+                <div class="ticker-scroll">
+                    <div class="ticker-item">
+                        <div class="ticker-name">Taufik</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Fery Artanto</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Andi Wijaya</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Siti Aminah</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Budi Santoso</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Rina Kartika</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Agus Saputra</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Dewi Lestari</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Hendra Setiawan</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Maya Indah</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Rizky Pratama</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Anita Sari</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <!-- Duplikat item untuk animasi yang mulus -->
+                    <div class="ticker-item">
+                        <div class="ticker-name">Taufik</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Fery Artanto</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Andi Wijaya</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Siti Aminah</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Budi Santoso</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                    <div class="ticker-item">
+                        <div class="ticker-name">Rina Kartika</div>
+                        <div class="ticker-status"><i class="fas fa-check"></i> Berhasil Terdaftar</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="login-link">
+            <p>Sudah memiliki akun? <a href="#">Masuk</a></p>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p><i class="fas fa-shield-alt"></i> Data Anda aman dan terlindungi</p>
+            <p>© 2024 Telegram Automation System</p>
+        </div>
+    </div>
+
+    <script>
+        function showLoading() {
+            document.getElementById('loadingSpinner').style.display = 'block';
+            document.getElementById('submitBtn').style.display = 'none';
+        }
+        
+        // Auto-focus pada input name
+        document.addEventListener('DOMContentLoaded', function() {
+            const nameInput = document.querySelector('input[name="name"]');
+            if (nameInput) {
+                nameInput.focus();
+            }
+            
+            // Inisialisasi animasi ticker
+            const tickerScroll = document.querySelector('.ticker-scroll');
+            if (tickerScroll) {
+                // Reset animasi untuk memastikan berjalan
+                tickerScroll.style.animation = 'none';
+                setTimeout(() => {
+                    tickerScroll.style.animation = 'scrollUp 30s linear infinite';
+                }, 10);
+            }
+        });
+        
+        // Format input phone
+        document.querySelector('input[name="phone"]').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.startsWith('0')) {
+                value = value.substring(1);
+            }
+            e.target.value = value;
+        });
+        
+        // Menambahkan efek hover pada ticker items
+        document.querySelectorAll('.ticker-item').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateX(5px)';
+            });
+            
+            item.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateX(0)';
+            });
+        });
+    </script>
+</body>
+</html>
