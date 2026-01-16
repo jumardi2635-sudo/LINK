@@ -1,0 +1,1111 @@
+2026-01-10 23:44:39,128 - __main__ - ERROR - Error loading config: cannot access local variable 'os' where it is not associated with a value
+2026-01-10 23:44:39,132 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-10 23:44:39,144 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-10 23:44:39,145 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-10 23:44:46,342 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-10 23:52:49,806 - __main__ - INFO - Starting Flask server on 0.0.0.0:5007
+2026-01-10 23:52:49,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-10 23:52:49,820 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-10 23:52:49,825 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-10 23:52:52,460 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-10 23:52:54,664 - telethon.client.users - INFO - Phone migrated to 5
+2026-01-10 23:52:54,664 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-01-10 23:52:55,651 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-10 23:52:55,652 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-10 23:52:55,653 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-10 23:52:58,657 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-10 23:53:01,400 - __main__ - INFO - BOT ADMIN READY
+2026-01-10 23:53:06,691 - __main__ - INFO - Login attempt: +8987417111
+2026-01-10 23:53:13,688 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-10 23:53:16,304 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-10 23:53:17,722 - __main__ - ERROR - Error dalam run_async: The phone number is invalid (caused by SendCodeRequest)
+2026-01-10 23:53:17,728 - werkzeug - INFO - 172.20.10.2 - - [10/Jan/2026 23:53:17] "POST /login HTTP/1.1" 200 -
+2026-01-10 23:53:17,745 - werkzeug - INFO - 172.20.10.2 - - [10/Jan/2026 23:53:17] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-10 23:53:27,639 - __main__ - INFO - Login attempt: +82218155501
+2026-01-10 23:53:28,268 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-10 23:53:31,166 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-10 23:53:32,190 - __main__ - ERROR - Error dalam run_async: The phone number is invalid (caused by SendCodeRequest)
+2026-01-10 23:53:32,190 - werkzeug - INFO - 172.20.10.2 - - [10/Jan/2026 23:53:32] "POST /login HTTP/1.1" 200 -
+2026-01-10 23:53:32,209 - werkzeug - INFO - 172.20.10.2 - - [10/Jan/2026 23:53:32] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-10 23:56:31,985 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-10 23:56:31,986 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-10 23:56:35,815 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:04:36,515 - __main__ - INFO - Starting Flask server on 0.0.0.0:5007
+2026-01-11 00:04:36,517 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:04:36,524 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 00:04:36,525 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 00:04:36,616 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:04:38,140 - __main__ - INFO - BOT ADMIN READY
+2026-01-11 00:04:52,371 - __main__ - INFO - Login attempt: +82218155501
+2026-01-11 00:04:52,549 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-11 00:04:52,797 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:04:58,773 - telethon.client.updates - WARNING - Cannot get difference since the account is likely misusing the session: database is locked
+2026-01-11 00:04:58,775 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-11 00:04:58,780 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:05:04,300 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2026-01-11 00:05:09,602 - __main__ - INFO - Login attempt: +82218155501
+2026-01-11 00:05:09,830 - asyncio - ERROR - OperationalError exception in shielded future
+future: <Task finished name='Task-44' coro=<TelegramBaseClient._disconnect_coro() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py:716> exception=OperationalError('database is locked')>
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 746, in _disconnect_coro
+    await self._save_states_and_entities()
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 701, in _save_states_and_entities
+    self.session.process_entities(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        types.contacts.ResolvedPeer(None, [types.InputPeerUser(0, self._mb_entity_cache.self_id)], [])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+    ~~~~~~~~~~~~~^
+        'insert or replace into entities values (?,?,?,?,?,?)', rows)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-01-11 00:05:09,832 - __main__ - ERROR - Gagal mengirim notifikasi ke admin 5385908865: Cannot send requests while disconnected
+2026-01-11 00:05:09,832 - __main__ - ERROR - Bot error: database is locked
+2026-01-11 00:05:09,834 - __main__ - ERROR - Fatal error in bot: database is locked
+2026-01-11 00:05:18,074 - __main__ - INFO - Login attempt: +82218155501
+2026-01-11 00:05:22,549 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:05:22,550 - __main__ - WARNING - Connection attempt 1 failed: Operation timed out after 30 seconds
+2026-01-11 00:05:39,843 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:05:39,844 - __main__ - WARNING - Connection attempt 1 failed: Operation timed out after 30 seconds
+2026-01-11 00:05:48,083 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:05:48,085 - __main__ - ERROR - Login error untuk +82218155501: Operation timed out after 30 seconds
+2026-01-11 00:05:48,086 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:48] "POST /login HTTP/1.1" 200 -
+2026-01-11 00:05:48,105 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:48] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:05:48,555 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:48] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 00:05:48,561 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:48] "GET /login HTTP/1.1" 200 -
+2026-01-11 00:05:48,572 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:48] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:05:53,552 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:05:53,553 - __main__ - ERROR - Login error untuk +82218155501: Operation timed out after 30 seconds
+2026-01-11 00:05:53,554 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:53] "POST /login HTTP/1.1" 200 -
+2026-01-11 00:05:57,034 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:57] "GET /login HTTP/1.1" 200 -
+2026-01-11 00:05:57,048 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:57] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:05:58,150 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:58] "GET /login HTTP/1.1" 200 -
+2026-01-11 00:05:58,164 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:05:58] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:06:03,051 - __main__ - INFO - Login attempt: +82218155501
+2026-01-11 00:06:10,849 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:06:10,850 - __main__ - WARNING - Connection attempt 2 failed: Operation timed out after 30 seconds
+2026-01-11 00:06:33,063 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:06:33,064 - __main__ - ERROR - Login error untuk +82218155501: Operation timed out after 30 seconds
+2026-01-11 00:06:33,065 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:06:33] "POST /login HTTP/1.1" 200 -
+2026-01-11 00:06:33,082 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:06:33] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:06:41,860 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:06:41,861 - __main__ - ERROR - Login error untuk +82218155501: Operation timed out after 30 seconds
+2026-01-11 00:06:41,865 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:06:41] "POST /login HTTP/1.1" 200 -
+2026-01-11 00:08:14,337 - __main__ - INFO - Starting Flask server on 0.0.0.0:5007
+2026-01-11 00:08:14,339 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:08:14,348 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 00:08:14,349 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 00:08:14,520 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:08:15,953 - __main__ - INFO - BOT ADMIN READY
+2026-01-11 00:08:21,334 - __main__ - INFO - Login attempt: +6282218155501 dari Sumatera Selatan
+2026-01-11 00:08:24,433 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-11 00:08:25,740 - __main__ - INFO - Login attempt: +6282218155501 dari Sumatera Selatan
+2026-01-11 00:08:25,924 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-11 00:08:28,352 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:08:28,761 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:08:29,591 - telethon.client.users - INFO - Phone migrated to 5
+2026-01-11 00:08:29,883 - telethon.client.users - INFO - Phone migrated to 5
+2026-01-11 00:08:29,950 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-01-11 00:08:30,291 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-01-11 00:08:30,300 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-11 00:08:30,302 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:08:30,303 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:08:30,628 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-11 00:08:30,629 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:08:30,629 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:08:32,134 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:08:32,140 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:08:33,464 - __main__ - INFO - Client added for +6282218155501
+2026-01-11 00:08:33,466 - __main__ - INFO - Client added for +6282218155501
+2026-01-11 00:08:52,060 - __main__ - INFO - Login attempt: +6282218155501 dari Banten
+2026-01-11 00:09:03,479 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:09:03,479 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:09:03,480 - __main__ - ERROR - Login error untuk +6282218155501: Operation timed out after 30 seconds
+2026-01-11 00:09:03,481 - __main__ - ERROR - Login error untuk +6282218155501: Operation timed out after 30 seconds
+2026-01-11 00:09:03,490 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:09:03] "POST /login HTTP/1.1" 200 -
+2026-01-11 00:09:03,491 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:09:03] "POST /login HTTP/1.1" 200 -
+2026-01-11 00:09:22,074 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=30s)
+2026-01-11 00:09:22,074 - __main__ - ERROR - Login error untuk +6282218155501: Operation timed out after 30 seconds
+2026-01-11 00:09:22,076 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:09:22] "POST /login HTTP/1.1" 200 -
+2026-01-11 00:09:22,099 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:09:22] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:11:21,219 - __main__ - INFO - Login attempt: +628987417111 dari Jawa Barat
+2026-01-11 00:11:30,139 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-11 00:11:32,974 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:11:34,198 - telethon.client.users - INFO - Phone migrated to 5
+2026-01-11 00:11:34,502 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-01-11 00:11:34,510 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-11 00:11:34,512 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:11:34,512 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:11:36,047 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:11:36,858 - __main__ - INFO - Client added for +628987417111
+2026-01-11 00:11:36,974 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:11:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 00:11:36,989 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:11:36] "GET /verify HTTP/1.1" 200 -
+2026-01-11 00:13:00,809 - __main__ - ERROR - Error dalam run_async: The phone code entered was invalid (caused by SignInRequest)
+2026-01-11 00:13:00,810 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:13:00] "POST /verify HTTP/1.1" 200 -
+2026-01-11 00:14:26,315 - __main__ - ERROR - Error cek SMS: The key is not registered in the system (caused by GetUsersRequest)
+2026-01-11 00:14:32,824 - __main__ - ERROR - Error dalam run_async: The phone code entered was invalid (caused by SignInRequest)
+2026-01-11 00:14:32,826 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:14:32] "POST /verify HTTP/1.1" 200 -
+2026-01-11 00:14:57,474 - __main__ - INFO - All clients cleared
+2026-01-11 00:15:05,452 - __main__ - ERROR - Error dalam callback handler: The query ID is invalid (caused by SetBotCallbackAnswerRequest)
+2026-01-11 00:15:46,925 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:15:46] "GET /verify HTTP/1.1" 200 -
+2026-01-11 00:15:53,054 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:15:53] "GET /verify HTTP/1.1" 200 -
+2026-01-11 00:16:04,168 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:16:04] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 00:16:04,174 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:16:04] "GET /login HTTP/1.1" 200 -
+2026-01-11 00:16:04,192 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:16:04] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:17:36,519 - __main__ - INFO - Login attempt: +6285647189736 dari Kepulauan Riau
+2026-01-11 00:17:40,603 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-11 00:17:43,909 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:17:51,619 - telethon.client.users - INFO - Phone migrated to 5
+2026-01-11 00:17:51,860 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-01-11 00:17:51,870 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-11 00:17:51,871 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-11 00:17:51,871 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:17:53,626 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:17:54,606 - __main__ - INFO - Client added for +6285647189736
+2026-01-11 00:17:54,916 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:17:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-11 00:17:54,922 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:17:54] "GET /verify HTTP/1.1" 200 -
+2026-01-11 00:18:32,575 - __main__ - INFO - User +6285647189736 joined group
+2026-01-11 00:18:32,677 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:18:32] "[32mPOST /verify HTTP/1.1[0m" 302 -
+2026-01-11 00:18:32,682 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:18:32] "GET / HTTP/1.1" 200 -
+2026-01-11 00:19:17,450 - __main__ - ERROR - Error resend OTP: Returned when all available options for this type of number were already used (e.g. flash-call, then SMS, then this error might be returned to trigger a second resend) (caused by ResendCodeRequest)
+2026-01-11 00:20:54,294 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 00:20:54,296 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:21:01,440 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:21:53,504 - telethon.client.updates - ERROR - Unhandled exception on callback_handler
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 574, in _dispatch_update
+    await callback(event)
+  File "C:\Users\ferya\OneDrive\Documents\New folder (2)\app.py", line 448, in callback_handler
+    await event.answer()
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\events\callbackquery.py", line 245, in answer
+    return await self._client(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\users.py", line 92, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.QueryIdInvalidError: The query ID is invalid (caused by SetBotCallbackAnswerRequest)
+2026-01-11 00:22:14,593 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:22:14] "GET / HTTP/1.1" 200 -
+2026-01-11 00:22:16,107 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:22:16] "GET / HTTP/1.1" 200 -
+2026-01-11 00:22:17,608 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:22:17] "GET / HTTP/1.1" 200 -
+2026-01-11 00:22:23,524 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:22:23] "GET / HTTP/1.1" 200 -
+2026-01-11 00:28:17,213 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:17] "[32mGET /login HTTP/1.1[0m" 302 -
+2026-01-11 00:28:19,474 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:19] "GET / HTTP/1.1" 200 -
+2026-01-11 00:28:20,416 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:20] "GET / HTTP/1.1" 200 -
+2026-01-11 00:28:23,370 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:23] "GET /verify HTTP/1.1" 200 -
+2026-01-11 00:28:26,823 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:26] "GET / HTTP/1.1" 200 -
+2026-01-11 00:28:27,054 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:27] "GET / HTTP/1.1" 200 -
+2026-01-11 00:28:39,783 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:39] "GET / HTTP/1.1" 200 -
+2026-01-11 00:28:46,090 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:28:46] "GET / HTTP/1.1" 200 -
+2026-01-11 00:37:26,980 - __main__ - ERROR - Error during logout: There is no current event loop in thread 'Thread-39 (process_request_thread)'.
+2026-01-11 00:37:26,981 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:37:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-11 00:37:26,984 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:37:26] "GET /login HTTP/1.1" 200 -
+2026-01-11 00:37:27,002 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 00:37:27] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 00:37:36,494 - __main__ - ERROR - Error resend OTP: Returned when all available options for this type of number were already used (e.g. flash-call, then SMS, then this error might be returned to trigger a second resend) (caused by ResendCodeRequest)
+2026-01-11 00:38:37,156 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-01-11 00:38:37,166 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-01-11 00:38:37,172 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 00:38:37,179 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-01-11 00:38:37,199 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 00:38:37,312 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 00:38:43,758 - __main__ - ERROR - Error resend OTP: Returned when all available options for this type of number were already used (e.g. flash-call, then SMS, then this error might be returned to trigger a second resend) (caused by ResendCodeRequest)
+2026-01-11 01:03:18,469 - __main__ - INFO - Starting Flask server on 0.0.0.0:5007
+2026-01-11 01:03:18,469 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:03:18,481 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 01:03:18,481 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 01:03:19,539 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:03:20,485 - __main__ - INFO - BOT ADMIN READY
+2026-01-11 01:03:29,562 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:03:29] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 01:03:29,574 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:03:29] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:03:29,596 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:03:29] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:15:26,235 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:26] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:26,249 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:26] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:29,461 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:29] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:29,479 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:29] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:30,105 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:30] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:30,125 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:30] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:30,645 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:30] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:30,658 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:30] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:30,852 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:30] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:30,865 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:30] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:31,478 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:31] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:31,493 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:31] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:31,593 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:31] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:31,619 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:31] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:31,811 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:31] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:31,825 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:31] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:32,095 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:32] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:32,109 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:32] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:53,469 - __main__ - INFO - Starting Flask server on 0.0.0.0:5007
+2026-01-11 01:15:53,470 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:15:53,480 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 01:15:53,480 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 01:15:55,079 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:15:55,825 - __main__ - INFO - BOT ADMIN READY
+2026-01-11 01:15:58,059 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:58] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:58,073 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:58] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:59,077 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:59] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:59,091 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:59] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:15:59,684 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:59] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:15:59,698 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:15:59] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:16:00,278 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:16:00] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:16:00,290 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:16:00] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:25,934 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:25] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:25,948 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:25] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:26,775 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:26] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:26,786 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:26] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:27,127 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:27] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:27,140 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:27] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:27,318 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:27] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:27,334 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:27] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:35,848 - __main__ - INFO - Starting Flask server on 0.0.0.0:5007
+2026-01-11 01:18:35,849 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:18:35,858 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 01:18:35,858 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 01:18:38,284 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:38] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:38,296 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:38] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:39,013 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:39] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:39,027 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:39] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:39,498 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:39] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:39,513 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:39] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:39,826 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:39] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:39,842 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:39] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:40,043 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:40] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:40,057 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:18:40] "[33mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 404 -
+2026-01-11 01:18:40,917 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 01:18:40] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:18:45,859 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: TimeoutError: 
+2026-01-11 01:18:47,151 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:18:47,766 - __main__ - INFO - BOT ADMIN READY
+2026-01-11 01:21:15,138 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:21:15] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:21:15,153 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:21:15] "GET /static/photo_6219732211280317500_x.jpg HTTP/1.1" 200 -
+2026-01-11 01:23:52,299 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:23:52] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:23:52,311 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:23:52] "GET /static/photo_6219732211280317500_x.jpg HTTP/1.1" 200 -
+2026-01-11 01:25:14,166 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:14] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:25:14,182 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:14] "GET /static/photo_6219732211280317500_x.jpg HTTP/1.1" 200 -
+2026-01-11 01:25:14,997 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:14] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:25:15,013 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:15] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:25:15,412 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:15] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:25:15,426 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:15] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:25:15,624 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:15] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:25:15,639 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:15] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:25:15,792 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:15] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:25:15,809 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:15] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:25:16,023 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:16] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:25:16,035 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:25:16] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:28:22,460 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:28:22] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:28:22,471 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:28:22] "GET /static/photo_6219732211280317500_x.jpg HTTP/1.1" 200 -
+2026-01-11 01:29:41,740 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 01:29:41,740 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 01:29:41,741 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 01:29:41,742 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 01:29:41,742 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:29:41,743 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:42,751 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:43,762 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:44,775 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:45,777 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:46,790 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:47,791 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 1 with ConnectionError
+2026-01-11 01:29:48,805 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:29:48,809 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:49,819 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:50,834 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:51,848 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 01:29:53,042 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:37:20,340 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:37:20] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:37:20,357 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:37:20] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:37:21,240 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:37:21] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:37:21,259 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:37:21] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:37:59,909 - __main__ - INFO - Login attempt: +6285701807212 dari Kepulauan Riau
+2026-01-11 01:38:01,379 - __main__ - ERROR - Login error untuk +6285701807212: There is no current event loop in thread 'Thread-36 (process_request_thread)'.
+2026-01-11 01:38:01,380 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:38:01] "POST /login HTTP/1.1" 200 -
+2026-01-11 01:38:01,399 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:38:01] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:38:10,576 - __main__ - INFO - Login attempt: +6285701807212 dari Kepulauan Riau
+2026-01-11 01:38:16,265 - __main__ - ERROR - Login error untuk +6285701807212: database is locked
+2026-01-11 01:38:16,266 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:38:16] "POST /login HTTP/1.1" 200 -
+2026-01-11 01:38:16,279 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:38:16] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:38:33,855 - __main__ - INFO - Login attempt: +6285701807212 dari Lampung
+2026-01-11 01:38:40,725 - __main__ - ERROR - Login error untuk +6285701807212: database is locked
+2026-01-11 01:38:40,726 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:38:40] "POST /login HTTP/1.1" 200 -
+2026-01-11 01:38:40,744 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:38:40] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:40:49,339 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 01:40:49,340 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:40:49,348 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 01:40:49,349 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 01:40:52,476 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:40:53,203 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur Reg OTP Baru Aktif
+2026-01-11 01:41:03,650 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:41:03] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 01:41:03,656 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:41:03] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:41:03,671 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:41:03] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:41:14,282 - __main__ - INFO - Login attempt: +6285701807212 dari Sumatera Barat
+2026-01-11 01:41:23,247 - __main__ - ERROR - Login error untuk +6285701807212: database is locked
+2026-01-11 01:41:23,249 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:41:23] "POST /login HTTP/1.1" 200 -
+2026-01-11 01:41:23,268 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:41:23] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:41:23,946 - telethon.client.updates - WARNING - Cannot get difference since the account is likely misusing the session: database is locked
+2026-01-11 01:41:23,947 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-11 01:41:23,949 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:41:29,482 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2026-01-11 01:41:35,040 - asyncio - ERROR - OperationalError exception in shielded future
+future: <Task finished name='Task-23' coro=<TelegramBaseClient._disconnect_coro() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py:702> exception=OperationalError('database is locked')>
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 732, in _disconnect_coro
+    self._save_states_and_entities()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 689, in _save_states_and_entities
+    self.session.process_entities(types.contacts.ResolvedPeer(None, [e._as_input_peer() for e in entities], []))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+    ~~~~~~~~~~~~~^
+        'insert or replace into entities values (?,?,?,?,?,?)', rows)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-01-11 01:41:35,043 - __main__ - ERROR - Bot error: database is locked
+2026-01-11 01:41:35,044 - __main__ - ERROR - Fatal error in bot: database is locked
+2026-01-11 01:42:03,454 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 01:42:03,455 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:42:03,465 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 01:42:03,465 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 01:42:03,549 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:42:04,502 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur Reg OTP Baru Aktif
+2026-01-11 01:42:11,170 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:42:11] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 01:42:11,181 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:42:11] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:42:11,190 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:42:11] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:42:21,144 - __main__ - INFO - Login attempt: +6285701807212 dari Jambi
+2026-01-11 01:42:22,944 - __main__ - ERROR - Login error untuk +6285701807212: There is no current event loop in thread 'Thread-5 (process_request_thread)'.
+2026-01-11 01:42:22,945 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:42:22] "POST /login HTTP/1.1" 200 -
+2026-01-11 01:42:22,961 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:42:22] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:43:00,078 - __main__ - INFO - Login attempt: +628987417111 dari Riau
+2026-01-11 01:43:00,188 - __main__ - ERROR - Login error untuk +628987417111: There is no current event loop in thread 'Thread-7 (process_request_thread)'.
+2026-01-11 01:43:00,189 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:00] "POST /login HTTP/1.1" 200 -
+2026-01-11 01:43:00,207 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:00] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:43:47,510 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:47] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 01:43:47,514 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:47] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:43:47,525 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:47] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:43:51,964 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:51] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:43:51,976 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:51] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:43:52,456 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:52] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:43:52,471 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:52] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:43:52,612 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:52] "GET /login HTTP/1.1" 200 -
+2026-01-11 01:43:52,626 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:43:52] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:43:59,542 - __main__ - INFO - Login attempt: +6285701807212 dari Sumatera Barat
+2026-01-11 01:44:06,808 - __main__ - ERROR - Login error untuk +6285701807212: database is locked
+2026-01-11 01:44:06,809 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:44:06] "POST /login HTTP/1.1" 200 -
+2026-01-11 01:44:06,826 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 01:44:06] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 01:47:04,463 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 01:47:04,463 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:47:05,830 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 01:47:07,059 - telethon.client.updates - ERROR - Unhandled exception on callback_handler
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\ferya\OneDrive\Documents\New folder (2)\app.py", line 814, in callback_handler
+    await event.answer()
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\events\callbackquery.py", line 245, in answer
+    return await self._client(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\users.py", line 87, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.QueryIdInvalidError: The query ID is invalid (caused by SetBotCallbackAnswerRequest)
+2026-01-11 01:47:07,091 - telethon.client.updates - INFO - Got difference for account updates
+2026-01-11 01:56:04,636 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 01:56:04,636 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 01:56:04,715 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 02:00:22,981 - __main__ - INFO - Login attempt: +6285701807212 dari Sumatera Barat
+2026-01-11 02:00:28,933 - __main__ - ERROR - Login error untuk +6285701807212: database is locked
+2026-01-11 02:00:28,936 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 02:00:28] "POST /login HTTP/1.1" 200 -
+2026-01-11 02:00:28,955 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 02:00:28] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 02:08:38,279 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 02:08:38,279 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 02:08:38,288 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 02:08:38,288 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 02:08:38,354 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 02:08:39,745 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur Reg OTP Baru Aktif
+2026-01-11 02:15:59,513 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 02:15:59,514 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 02:15:59,514 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 02:15:59,515 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 02:15:59,515 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 02:15:59,516 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 02:16:00,532 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 02:16:01,544 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 02:16:02,887 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 02:30:31,903 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 02:30:31,903 - __main__ - INFO - 🤖 AI ClickUp Client ID: OYMJ99SUEY...
+2026-01-11 02:30:31,904 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 02:30:39,165 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 02:30:41,919 - __main__ - ERROR - Timeout saat menjalankan coroutine (timeout=10s)
+2026-01-11 02:30:46,121 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur AI ClickUp Aktif
+2026-01-11 02:30:46,382 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:30:46,384 - __main__ - ERROR - Error dalam run_async: cannot reuse already awaited coroutine
+2026-01-11 02:30:46,384 - __main__ - WARNING - ⚠️ AI ClickUp connection test skipped
+2026-01-11 02:30:46,391 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 02:30:46,391 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 02:31:54,850 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:31:54] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 02:31:54,868 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:31:54] "GET /login HTTP/1.1" 200 -
+2026-01-11 02:31:54,880 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:31:54] "GET /static/photo_6219732211280317500_x.jpg HTTP/1.1" 200 -
+2026-01-11 02:31:58,964 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:31:58] "GET /login HTTP/1.1" 200 -
+2026-01-11 02:31:58,979 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:31:58] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 02:31:59,785 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:31:59] "GET /login HTTP/1.1" 200 -
+2026-01-11 02:31:59,801 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:31:59] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 02:32:04,915 - __main__ - INFO - Login attempt: +6285701807212 dari Jambi
+2026-01-11 02:32:10,541 - __main__ - ERROR - Unexpected error in login: There is no current event loop in thread 'Thread-10 (process_request_thread)'.
+2026-01-11 02:32:10,542 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:32:10] "POST /login HTTP/1.1" 200 -
+2026-01-11 02:32:10,557 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:32:10] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 02:32:50,712 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:33:01,152 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:33:03,958 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:33:05,332 - __main__ - ERROR - Error dalam callback handler: Content of the message was not modified (caused by EditMessageRequest)
+2026-01-11 02:33:13,251 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:33:13,478 - __main__ - ERROR - Error dalam callback handler: Content of the message was not modified (caused by EditMessageRequest)
+2026-01-11 02:56:26,954 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 02:56:28,221 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:56:28,224 - __main__ - WARNING - ⚠️ AI ClickUp Connection: Authentication failed
+2026-01-11 02:56:28,224 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 02:56:28,225 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 02:56:28,226 - __main__ - INFO - 🤖 AI ClickUp Client ID: OYMJ99SUEY...
+2026-01-11 02:56:28,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 02:56:28,231 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 02:56:29,350 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur AI ClickUp Aktif
+2026-01-11 02:57:43,001 - __main__ - INFO - Login attempt: +6285701807212 dari Jambi
+2026-01-11 02:57:43,806 - telethon.client.updates - INFO - Got difference for account updates
+2026-01-11 02:57:48,646 - __main__ - WARNING - Database locked, retry 1/3
+2026-01-11 02:57:55,163 - __main__ - WARNING - Database locked, retry 2/3
+2026-01-11 02:58:01,711 - __main__ - ERROR - Login error untuk +6285701807212: database is locked
+2026-01-11 02:58:01,712 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:58:01] "POST /login HTTP/1.1" 200 -
+2026-01-11 02:58:01,726 - werkzeug - INFO - 172.20.10.2 - - [11/Jan/2026 02:58:01] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 02:58:26,395 - __main__ - ERROR - Error list sesi: Content of the message was not modified (caused by EditMessageRequest)
+2026-01-11 02:58:40,934 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:58:48,718 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:58:53,530 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:58:58,346 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:59:01,518 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:59:01,628 - __main__ - ERROR - Error dalam callback handler: Content of the message was not modified (caused by EditMessageRequest)
+2026-01-11 02:59:02,542 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 02:59:12,579 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 03:11:55,120 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:11:55,122 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:11:55,122 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 03:11:55,123 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:11:55,123 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:11:55,268 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 03:12:00,902 - telethon.client.updates - WARNING - Error executing high-level request after reconnect: <class 'sqlite3.OperationalError'>: database is locked
+2026-01-11 03:12:06,459 - telethon.client.updates - WARNING - Cannot get difference since the account is likely misusing the session: database is locked
+2026-01-11 03:12:06,460 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-11 03:12:06,463 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-11 03:12:06,464 - telethon.client.telegrambaseclient - ERROR - Unhandled exception from keepalive_handle after cancelling <class '_asyncio.Task'> (<Task finished name='Task-9' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:481> exception=OperationalError('database is locked')>)
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\helpers.py", line 176, in _cancel
+    await task
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 517, in _keepalive_loop
+    self._save_states_and_entities()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 689, in _save_states_and_entities
+    self.session.process_entities(types.contacts.ResolvedPeer(None, [e._as_input_peer() for e in entities], []))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+    ~~~~~~~~~~~~~^
+        'insert or replace into entities values (?,?,?,?,?,?)', rows)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-01-11 03:12:12,014 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2026-01-11 03:12:12,015 - telethon.client.telegrambaseclient - ERROR - Unhandled exception from keepalive_handle after cancelling <class '_asyncio.Task'> (<Task finished name='Task-9' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:481> exception=OperationalError('database is locked')>)
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\helpers.py", line 176, in _cancel
+    await task
+sqlite3.OperationalError: database is locked
+2026-01-11 03:12:17,557 - asyncio - ERROR - OperationalError exception in shielded future
+future: <Task finished name='Task-16' coro=<TelegramBaseClient._disconnect_coro() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py:702> exception=OperationalError('database is locked')>
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 732, in _disconnect_coro
+    self._save_states_and_entities()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 689, in _save_states_and_entities
+    self.session.process_entities(types.contacts.ResolvedPeer(None, [e._as_input_peer() for e in entities], []))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+    ~~~~~~~~~~~~~^
+        'insert or replace into entities values (?,?,?,?,?,?)', rows)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-01-11 03:12:17,559 - __main__ - ERROR - Bot error: database is locked
+2026-01-11 03:12:17,559 - __main__ - ERROR - Fatal error in bot: database is locked
+2026-01-11 03:13:03,167 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:13:03,168 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:13:03,169 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 03:13:03,170 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:13:03,170 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:13:03,263 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 03:28:22,648 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:28:22,648 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:28:22,649 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 03:28:22,650 - telethon.network.connection.connection - INFO - <class 'OSError'> during disconnect: [WinError 121] The semaphore timeout period has expired
+2026-01-11 03:28:22,651 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:28:22,718 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 03:31:05,448 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 03:31:05,451 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 03:31:05,453 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-11 03:31:05,453 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2026-01-11 03:31:05,454 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:31:05,454 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:06,458 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:07,469 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:08,482 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:09,493 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:10,507 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:11,516 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 1 with ConnectionError
+2026-01-11 03:31:12,530 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:31:12,533 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:13,539 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:14,554 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:15,571 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:16,582 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:17,594 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:18,608 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 2 with ConnectionError
+2026-01-11 03:31:19,624 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:31:19,626 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:20,640 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:21,652 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:22,662 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:23,675 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:24,686 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:25,700 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 3 with ConnectionError
+2026-01-11 03:31:26,703 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:31:26,705 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:27,716 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:28,731 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:29,743 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:30,757 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:31,773 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:32,785 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 4 with ConnectionError
+2026-01-11 03:31:33,799 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 03:31:33,801 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:34,812 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:35,825 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:36,838 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:37,851 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:38,865 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2026-01-11 03:31:39,874 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 5 with ConnectionError
+2026-01-11 03:31:40,882 - telethon.network.mtprotosender - ERROR - Automatic reconnection failed 5 time(s)
+2026-01-11 03:31:40,885 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-11 03:31:40,886 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-11 03:31:40,886 - asyncio - ERROR - ConnectionError exception in shielded future
+future: <Future finished exception=ConnectionError('Connection to Telegram failed 5 time(s)')>
+ConnectionError: Connection to Telegram failed 5 time(s)
+2026-01-11 03:31:40,887 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2026-01-11 03:31:40,888 - telethon.client.telegrambaseclient - ERROR - Unhandled exception from keepalive_handle after cancelling <class '_asyncio.Task'> (<Task finished name='Task-10' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:481> exception=OperationalError('database is locked')>)
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\helpers.py", line 176, in _cancel
+    await task
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 517, in _keepalive_loop
+    self._save_states_and_entities()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\telegrambaseclient.py", line 689, in _save_states_and_entities
+    self.session.process_entities(types.contacts.ResolvedPeer(None, [e._as_input_peer() for e in entities], []))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+    ~~~~~~~~~~~~~^
+        'insert or replace into entities values (?,?,?,?,?,?)', rows)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-01-11 03:31:40,894 - __main__ - ERROR - Bot error: Connection to Telegram failed 5 time(s)
+2026-01-11 03:31:40,894 - __main__ - ERROR - Fatal error in bot: Connection to Telegram failed 5 time(s)
+2026-01-11 11:36:29,280 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-11 11:36:30,383 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 11:36:30,386 - __main__ - WARNING - ⚠️ AI ClickUp Connection: Authentication failed
+2026-01-11 11:36:30,387 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-11 11:36:30,387 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 11:36:30,388 - __main__ - INFO - 🤖 AI ClickUp Client ID: OYMJ99SUEY...
+2026-01-11 11:36:30,396 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 11:36:30,396 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 11:36:31,101 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur AI ClickUp Aktif
+2026-01-11 11:39:21,398 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 11:39:21] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 11:39:21,408 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 11:39:21] "GET /login HTTP/1.1" 200 -
+2026-01-11 11:39:21,418 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 11:39:21] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 11:39:23,641 - __main__ - ERROR - Error dalam callback handler: 
+2026-01-11 11:39:23,753 - __main__ - ERROR - Error dalam callback handler: The query ID is invalid (caused by SetBotCallbackAnswerRequest)
+2026-01-11 11:39:34,310 - __main__ - INFO - Login attempt: +6285701807212 dari Sumatera Selatan
+2026-01-11 11:39:34,496 - __main__ - ERROR - Login error untuk +6285701807212: There is no current event loop in thread 'Thread-5 (process_request_thread)'.
+2026-01-11 11:39:34,497 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 11:39:34] "POST /login HTTP/1.1" 200 -
+2026-01-11 11:39:34,512 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 11:39:34] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 12:10:10,544 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-11 12:10:11,721 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 12:10:11,723 - __main__ - WARNING - ⚠️ AI ClickUp Connection: Authentication failed
+2026-01-11 12:10:11,724 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 12:10:11,724 - __main__ - INFO - 🤖 AI ClickUp Client ID: OYMJ99SUEY...
+2026-01-11 12:10:11,731 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 12:10:11,731 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 12:10:13,790 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-11 12:10:15,409 - telethon.client.users - INFO - Phone migrated to 5
+2026-01-11 12:10:15,409 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-01-11 12:10:15,718 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-11 12:10:15,719 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-11 12:10:15,719 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-11 12:10:17,253 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-11 12:10:17,967 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur AI ClickUp Aktif
+2026-01-11 12:10:22,493 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-11 12:10:24,726 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-11 12:10:24,729 - __main__ - WARNING - ⚠️ AI ClickUp Connection: Authentication failed
+2026-01-11 12:10:24,729 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-11 12:10:24,729 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-11 12:10:24,730 - __main__ - INFO - 🤖 AI ClickUp Client ID: OYMJ99SUEY...
+2026-01-11 12:10:24,737 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-11 12:10:24,737 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 12:10:25,345 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur AI ClickUp Aktif
+2026-01-11 12:10:27,321 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 12:10:27] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-11 12:10:27,332 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 12:10:27] "GET /login HTTP/1.1" 200 -
+2026-01-11 12:10:27,341 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 12:10:27] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 12:10:30,958 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 12:10:30] "GET /login HTTP/1.1" 200 -
+2026-01-11 12:10:30,970 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 12:10:30] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-11 12:10:42,793 - __main__ - INFO - Login attempt: +6285701807212 dari Aceh
+2026-01-11 12:10:42,961 - __main__ - ERROR - Login error untuk +6285701807212: There is no current event loop in thread 'Thread-7 (process_request_thread)'.
+2026-01-11 12:10:42,962 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 12:10:42] "POST /login HTTP/1.1" 200 -
+2026-01-11 12:10:42,974 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 12:10:42] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 18:46:52,066 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 18:46:53,061 - __main__ - ERROR - Failed to get ClickUp token: 401 - {"err":"Client secret does not match","ECODE":"OAUTH_011"}
+2026-01-16 18:46:53,063 - __main__ - WARNING - ⚠️ AI ClickUp Connection: Authentication failed
+2026-01-16 18:46:53,064 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 18:46:53,064 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 18:46:53,064 - __main__ - INFO - 🤖 AI ClickUp Client ID: OYMJ99SUEY...
+2026-01-16 18:46:53,076 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 18:46:53,077 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 18:46:53,774 - __main__ - INFO - 🤖 BOT ADMIN READY - Fitur AI ClickUp Aktif
+2026-01-16 18:47:32,311 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 18:47:32,583 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 18:47:34,310 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 18:47:34,310 - __main__ - INFO - 🤖 Bot Token: 8568390541...
+2026-01-16 18:47:34,323 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 18:47:34,324 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 18:47:38,076 - __main__ - ERROR - Bot error: database is locked
+2026-01-16 18:47:38,078 - __main__ - ERROR - Fatal error in bot: database is locked
+2026-01-16 18:47:54,543 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 18:47:54,701 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 18:47:55,931 - __main__ - INFO - 🤖 BOT ADMIN READY - Sistem siap beroperasi
+2026-01-16 18:47:56,542 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 18:47:56,542 - __main__ - INFO - 🤖 Bot Token: 8568390541...
+2026-01-16 18:47:56,556 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 18:47:56,556 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 18:48:12,013 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:48:12] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-16 18:48:12,029 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:48:12] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:48:12,039 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:48:12] "GET /static/photo_6219732211280317500_x.jpg HTTP/1.1" 200 -
+2026-01-16 18:48:12,103 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:48:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-16 18:51:02,819 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:51:02] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:51:02,827 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:51:02] "GET /static/photo_6219732211280317500_x.jpg HTTP/1.1" 200 -
+2026-01-16 18:53:21,025 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:21] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:53:21,033 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:21] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 18:53:22,245 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:22] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:53:22,253 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:22] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 18:53:23,339 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:23] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:53:23,347 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:23] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 18:53:24,153 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:24] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:53:24,161 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:24] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 18:53:24,944 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:24] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:53:24,953 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:24] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 18:53:33,442 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:33] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:53:33,451 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:33] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 18:53:34,125 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:34] "GET /login HTTP/1.1" 200 -
+2026-01-16 18:53:34,133 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 18:53:34] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:08:45,975 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:08:45] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:08:45,985 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:08:45] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:08:47,059 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:08:47] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:08:47,072 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:08:47] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:08:47,737 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:08:47] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:08:47,746 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:08:47] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:01,830 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:01] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:11:01,843 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:01] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:02,825 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:02] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:11:02,836 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:02] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:03,324 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:03] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:11:03,334 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:03] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:03,697 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:03] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:11:03,706 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:03] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:04,214 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:04] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:11:04,228 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:04] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:04,282 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:04] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:11:04,290 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:04] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:04,503 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:04] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:11:04,513 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:04] "[36mGET /static/photo_6219732211280317500_x.jpg HTTP/1.1[0m" 304 -
+2026-01-16 19:11:13,547 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 19:11:14,003 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 19:11:14,764 - __main__ - INFO - 🤖 BOT ADMIN READY - Sistem siap beroperasi
+2026-01-16 19:11:15,546 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 19:11:15,547 - __main__ - INFO - 🤖 Bot Token: 8568390541...
+2026-01-16 19:11:15,561 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 19:11:15,561 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 19:11:18,124 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:11:18] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:22:11,519 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 19:22:11,674 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 19:22:13,518 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 19:22:13,519 - __main__ - INFO - 🤖 Bot Token: 8568390541...
+2026-01-16 19:22:13,533 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 19:22:13,534 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 19:22:16,898 - __main__ - INFO - 🤖 BOT ADMIN READY - Sistem siap beroperasi
+2026-01-16 19:22:26,218 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:22:26] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-16 19:22:26,228 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:22:26] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:22:27,172 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:22:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-16 19:22:51,239 - __main__ - INFO - Login attempt: +6282218155501 dari 
+2026-01-16 19:22:51,428 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-16 19:22:54,084 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-16 19:22:55,605 - telethon.client.users - INFO - Phone migrated to 5
+2026-01-16 19:22:56,120 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-01-16 19:22:56,638 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-16 19:22:56,639 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-16 19:22:56,640 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-16 19:22:58,992 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:23:00,528 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:23:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-16 19:23:00,540 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:23:00] "GET /verify HTTP/1.1" 200 -
+2026-01-16 19:23:45,519 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-16 19:23:45,675 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:23:47,422 - __main__ - WARNING - Gagal join grup: Cannot get entity from a channel (or group) that you are not part of. Join the group and retry
+2026-01-16 19:23:47,422 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-16 19:23:47,423 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:23:49,075 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:23:49] "[32mPOST /verify HTTP/1.1[0m" 302 -
+2026-01-16 19:23:49,084 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:23:49] "GET / HTTP/1.1" 200 -
+2026-01-16 19:23:49,173 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:23:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:23:49,176 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:23:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:24:11,077 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:11,157 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:12,519 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 316, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-01-16 19:24:12,536 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-17' coro=<Connection._send_loop() running at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:326> wait_for=<Future cancelled>>
+2026-01-16 19:24:12,536 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-18' coro=<Connection._recv_loop() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:328> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-01-16 19:24:12,537 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<MTProtoSender._send_loop() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:446> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-01-16 19:24:12,537 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 507, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 302, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-01-16 19:24:12,538 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-20' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:497> wait_for=<Future cancelled>>
+2026-01-16 19:24:12,538 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.34.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 452, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-01-16 19:24:12,545 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<UpdateMethods._update_loop() running at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:471> wait_for=<Future cancelled>>
+2026-01-16 19:24:12,546 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:481> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-01-16 19:24:12,547 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-01-16 19:24:12,547 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<MTProtoSender._reconnect() done, defined at C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:348> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 355, in _reconnect
+    await helpers._cancel(
+    ...<3 lines>...
+    )
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\helpers.py", line 174, in _cancel
+    task.cancel()
+    ~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ferya\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-01-16 19:24:12,548 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:12,550 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:12,722 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:12,724 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:19,121 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:24:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:24:19,123 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:24:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:24:21,741 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:22,041 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:26,639 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:26,640 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:31,043 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:31,157 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:32,785 - __main__ - ERROR - Error cek SMS: Content of the message was not modified (caused by EditMessageRequest)
+2026-01-16 19:24:32,994 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:32,995 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:46,006 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:46,398 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:47,983 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.189:443/TcpFull...
+2026-01-16 19:24:47,985 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.189:443/TcpFull complete!
+2026-01-16 19:24:49,127 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:24:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:24:49,129 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:24:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:25:19,116 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:25:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:25:19,117 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:25:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:25:33,295 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:25:33] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:25:33,295 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:25:33] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:25:49,129 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:25:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:25:49,129 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:25:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:26:19,125 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:26:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:26:19,127 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:26:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:26:49,127 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:26:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:26:49,129 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:26:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:27:11,606 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:27:11] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:27:11,607 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:27:11] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:27:19,114 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:27:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:27:19,116 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:27:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:27:49,114 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:27:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:27:49,116 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:27:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:28:19,115 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:28:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:28:19,116 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:28:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:28:49,113 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:28:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:28:49,114 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:28:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:29:19,112 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:29:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:29:19,113 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:29:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:29:49,120 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:29:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:29:49,121 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:29:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:30:19,114 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:30:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:30:19,115 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:30:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:30:49,122 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:30:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:30:49,124 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:30:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:31:19,126 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:31:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:31:19,127 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:31:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:31:49,121 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:31:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:31:49,122 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:31:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:32:19,129 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:32:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:32:19,131 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:32:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:32:49,122 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:32:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:32:49,123 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:32:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:19,118 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:19] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:19,119 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:19] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:46,290 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:46] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:46,292 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:46] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:47,212 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:47] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:47,213 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:47] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:49,129 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:49] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:49,130 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:49] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:50,096 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:50] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:50,119 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:50] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:50,122 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:50] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:50,842 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:50] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:50,871 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:50] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:50,871 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:50] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:51,474 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:51] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:51,490 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:51] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:51,492 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:51] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:51,983 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:51] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,002 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:52,004 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,165 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,182 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:52,183 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,340 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,360 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,361 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:52,407 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,436 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:52,437 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,532 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,614 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:52,615 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,645 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,663 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,664 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:52,805 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,822 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:52,823 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,871 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:52,892 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:52,892 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:52] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:53,049 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:53,071 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:53,071 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:53,093 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:53,107 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:53,108 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:33:53,310 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "GET / HTTP/1.1" 200 -
+2026-01-16 19:33:53,326 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "[33mGET /api/metrics HTTP/1.1[0m" 404 -
+2026-01-16 19:33:53,326 - werkzeug - INFO - 127.0.0.1 - - [16/Jan/2026 19:33:53] "GET /api/status HTTP/1.1" 200 -
+2026-01-16 19:37:34,784 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 19:37:34,898 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 19:37:35,466 - __main__ - INFO - 🤖 BOT ADMIN READY - Sistem siap beroperasi
+2026-01-16 19:37:36,783 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 19:37:36,784 - __main__ - INFO - 🤖 Bot Token: 8568390541...
+2026-01-16 19:37:36,799 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 19:37:36,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 19:38:08,230 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 19:38:08,379 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 19:38:09,097 - __main__ - INFO - 🤖 BOT ADMIN READY - Sistem siap beroperasi
+2026-01-16 19:38:10,229 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 19:38:10,230 - __main__ - INFO - 🤖 Bot Token: 8568390541...
+2026-01-16 19:38:10,248 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 19:38:10,248 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 19:41:42,873 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:41:42] "[32mGET / HTTP/1.1[0m" 302 -
+2026-01-16 19:41:42,882 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:41:42] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:41:43,815 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:41:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-16 19:42:14,264 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:42:14] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:08,374 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:08] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:09,474 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:09] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:10,073 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:10] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:10,590 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:10] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:10,789 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:10] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:10,876 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:10] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:10,982 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:10] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:11,096 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:11] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:11,205 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:11] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:11,403 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:11] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:11,615 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:11] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:11,829 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:11] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:12,037 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:12] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:12,216 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:12] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:12,420 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:12] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:12,611 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:12] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:12,791 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:12] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:13,037 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:13] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:14,090 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:14] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:14,421 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:14] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:14,630 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:14] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:14,828 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:14] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:15,068 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:15] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:15,338 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:15] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:49:15,561 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:49:15] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:54:15,391 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.147:443/TcpFull...
+2026-01-16 19:54:15,632 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.147:443/TcpFull complete!
+2026-01-16 19:54:16,520 - __main__ - INFO - 🤖 BOT ADMIN READY - Sistem siap beroperasi
+2026-01-16 19:54:17,373 - __main__ - INFO - 🚀 Starting Flask server on 0.0.0.0:5007
+2026-01-16 19:54:17,374 - __main__ - INFO - 🤖 Bot Token: 8568390541...
+2026-01-16 19:54:17,387 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://172.20.10.2:5007
+2026-01-16 19:54:17,387 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-16 19:54:19,583 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:54:19] "GET /login HTTP/1.1" 200 -
+2026-01-16 19:54:20,676 - werkzeug - INFO - 172.20.10.2 - - [16/Jan/2026 19:54:20] "GET /login HTTP/1.1" 200 -

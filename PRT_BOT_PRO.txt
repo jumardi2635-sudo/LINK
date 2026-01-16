@@ -1,0 +1,42 @@
+Sleboe25477@
+
+1. Restart Standar (Cepat)
+Jika Anda hanya melakukan perubahan kecil pada kode app.py, cukup jalankan perintah ini:
+
+Bash
+
+systemctl restart telebot
+2. Restart Total & Pembersihan (Direkomendasikan)
+Jika bot mengalami kendala seperti "Database is locked" atau tidak merespon, gunakan urutan ini untuk memastikan semua proses lama mati total:
+
+Hentikan Service:
+
+Bash
+
+systemctl stop telebot
+Bersihkan Port 5003: Pastikan tidak ada proses Python yang menggantung di port web.
+
+Bash
+
+fuser -k 5003/tcp
+Hapus File Jurnal (Opsional tapi Bagus): Menghapus sisa-sisa database yang mengunci.
+
+Bash
+
+rm -f /root/telebot_pro/sessions/*.session-journal
+Jalankan Kembali:
+
+Bash
+
+systemctl start telebot
+3. Cara Memantau Hasil Restart
+Setelah menjalankan perintah di atas, Anda wajib memeriksa apakah bot berhasil login tanpa error:
+
+Bash
+
+journalctl -u telebot -f
+Tanda Restart Sukses:
+
+Muncul log 🧹 [SYSTEM] Menjalankan pembersihan & optimasi sesi...
+
+Muncul log ✅ Bot Admin Aktif & Permanen...

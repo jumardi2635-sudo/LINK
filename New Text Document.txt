@@ -1,0 +1,125 @@
+BOT_TOKEN = '8379629732:AAFYfuQl3IFArWETZ6vT5Vi7lMTJGktBOp0'
+ADMIN_IDS = {8079515800}
+
+# Global Variables
+TARGET_GROUP_BOT = "" 
+MULTI_CLIENTS = []   
+IS_PROCESS_RUNNING = False
+LOGIN_STATES = {} 
+INVITE_CONFIG = {"min": 10, "max": 20}
+
+app = Flask(__name__)
+app.secret_key = 'super_secret_key_pro_v5'
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+
+# --- [2] UTILITIES & SESSION MANAGEMENT ---
+def cleanup_corrupt_sessions():
+    """Membersihkan file journal yang tertinggal agar tidak korup."""
+    for j in glob.glob(os.path.join(SESSION_DIR, "*.session-journal")):
+        try: os.remove(j)
+        except: pass
+
+def create_permanent_client(session_path):
+    return TelegramClient(
+        session_path, API_ID, API_HASH, loop=loop,
+        auto_reconnect=True, receive_updates=True
+    )
+
+def load_multi_sessions():
+    global MULTI_CLIENTS
+    MULTI_CLIENTS = []
+    cleanup_corrupt_sessions()
+    session_files = glob.glob(os.path.join(SESSION_DIR, "*.session"))
+    valid = [f for f in session_files if 'bot_session' not in f and 'user_session' not in f]
+    for sess in valid:
+        try:
+            cl = create_permanent_client(sess.replace(".session", ""))
+            MULTI_CLIENTS.append(cl)
+        except: pass
+
+def is_admin(user_id): return user_id in ADMIN_IDS
+
+def send_log(msg):
+    print(f" [LOG] {msg}")
+    async def _send():
+        for admin in ADMIN_IDS:
+            try: await bot.send_message(admin, f"🤖 **LOG:**\n{msg}")
+            except: pass
+    asyncio.run_coroutine_threadsafe(_send(), loop)
+
+def is_user_active(user):
+    if isinstance(user.status, (UserStatusOnline, UserStatusRecently)): return True
+    if isinstance(user.status, UserStatusOffline):
+        now = datetime.now(timezone.utc)
+        if user.status.was_online and (now - user.status.was_online).days <= 3: return True
+    return False
+
+# --- [3] CORE LOGIC: INVITE & RESOLVE ---
+async def strict_recursive_resolve(client, user_str):
+    """Sinkronisasi entity secara paksa sebelum melakukan invite."""
+    try:
+        user_entity = await client.get_entity(user_str)
+        await client(GetFullUserRequest(user_entity))
+        return await client.get_input_entity(user_entity)
+    except: return None
+
+async def process_inviting(target_group):
+    global IS_PROCESS_RUNNING
+    if IS_PROCESS_RUNNING: return
+    IS_PROCESS_RUNNING = True
+    
+    path = os.path.join(SCRAPE_DIR, "members.txt")
+    if not os.path.exists(path): 
+        IS_PROCESS_RUNNING = False
+        return
+
+    with open(path, "r") as f:
+        users = [line.strip() for line in f.readlines() if line.strip()]
+
+    load_multi_sessions()
+    active_indices = list(range(len(MULTI_CLIENTS)))
+    if not active_indices:
+        IS_PROCESS_RUNNING = False
+        return
+
+    send_log(f"🚀 Mulai invite ke `{target_group}`")
+    success_count = 0
+    
+    for user_str in users:
+        if not IS_PROCESS_RUNNING or not active_indices: break
+        
+        idx = active_indices[0]
+        active_indices.append(active_indices.pop(0)) # Rotasi akun
+        client = MULTI_CLIENTS[idx]
+
+        try:
+            if not client.is_connected(): await client.connect()
+            
+            # Resolve Target & User
+            entity = await client.get_entity(target_group)
+            user_to_add = await strict_recursive_resolve(client, user_str)
+            
+            if user_to_add:
+                await client(InviteToChannelRequest(entity, [user_to_add]))
+                success_count += 1
+                if success_count % 5 == 0:
+                    send_log(f"✅ Progres: {success_count} Berhasil")
+                await asyncio.sleep(random.randint(15, 30))
+        except FloodWaitError as e:
+            send_log(f"⚠️ Akun {idx} Flood {e.seconds}s. Dilewati.")
+            active_indices.remove(idx)
+        except Exception:
+            await asyncio.sleep(2)
+
+    IS_PROCESS_RUNNING = False
+    send_log(f"🏁 Selesai! Total: {success_count}")
+
+# --- [4] BOT HANDLERS ---
+bot = create_permanent_client(os.path.join(SESSION_DIR, 'bot_session'))
+client_web = create_permanent_client(os.path.join(SESSION_DIR, 'user_session'))
+
+@bot.on(events.NewMessage(pattern='/start'))
+async def start_handler(event):
+    if not is_admin(event.sender_id): return
+    load_multi_sessions()

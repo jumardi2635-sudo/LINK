@@ -1,0 +1,18 @@
+[Unit]
+Description=Telegram Automation Bot
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/telegram-bot
+Environment=PATH=/home/ubuntu/telegram-bot/venv/bin
+ExecStart=/home/ubuntu/telegram-bot/venv/bin/python ac.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

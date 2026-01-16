@@ -1,0 +1,47 @@
+Slebor25477@
+
+1. Salin (Copy) Satu Folder Full
+Anggap folder bot Anda saat ini bernama bot. Kita akan membuat duplikatnya bernama bot_2.
+
+Jalankan perintah ini di terminal (posisi di /root):
+
+Bash
+
+cd /root
+cp -r bot bot_2
+(Perintah cp -r artinya copy recursive/seluruh isi folder beserta sub-foldernya)
+
+2. Bersihkan Sesi di Folder Baru
+Supaya bot kedua tidak bentrok dengan akun yang sedang login di bot pertama, hapus sesi di folder baru:
+
+Bash
+
+rm -rf bot_2/sessions/*.session
+3. Edit Konfigurasi Bot Kedua
+Sekarang masuk ke folder baru dan edit bot.py miliknya.
+
+Bash
+
+cd bot_2
+nano bot.py
+Yang WAJIB diubah hanya 2 baris:
+
+TOKEN BOT: Ganti dengan token bot baru.
+
+Python
+
+BOT_TOKEN = 'TOKEN_BOT_BARU_DISINI'
+PORT WEB (Paling Bawah): Ganti angka 5000 menjadi 5001. (Karena Port 5000 sudah dipakai folder bot, maka bot_2 harus pakai 5001).
+
+Python
+
+# Di baris paling bawah skrip:
+app.run(host='0.0.0.0', port=5001, debug=False, use_reloader=False)
+(Simpan dengan CTRL+X, lalu Y, lalu Enter)
+
+4. Jalankan Bot Kedua
+Nyalakan bot kedua dengan nama yang berbeda di PM2.
+
+Bash
+
+pm2 start bot.py --name "bot-ke-2" --interpreter python3
